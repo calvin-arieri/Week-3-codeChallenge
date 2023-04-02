@@ -26,9 +26,12 @@ renderMovies = movie =>{
     //creating reduce ticket
     movieDetail.querySelector("#buy").addEventListener('click',()=>{
         movie.tickets_sold -- ;
-        const leftTickets = movie.tickets_sold
-
-        if
+        if(movie.tickets_sold> 0) {
+        movieDetail.querySelector('span').textContent = movie.tickets_sold
+        }
+        else{
+            movieDetail.querySelector('span').textContent = "sold out"
+        }
 
     })
    
