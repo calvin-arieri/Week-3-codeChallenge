@@ -7,12 +7,17 @@ fetch("http://localhost:3000/films")
 renderMovies = movie =>{
     const movieList = document.createElement("ul")
     movieList.className = "list"
-    movieList.innerHTML = `<li id="available" onclick="renderMore()">${movie.title}</li>`
+    movieList.innerHTML = `
+    <li> <img src=${movie.poster}>
+    <p>
+    title: ${movie.title} <br>
+    run time: ${movie.runtime} <br>
+    capacity:${movie.capacity}<br>
+    showtime:${movie.showtime} <br>
+    sold tickets: ${movie.tickets_sold} <br>
+    description:${movie.description} <br>
+    `
     
     document.getElementById("listMovies").appendChild(movieList)
 }
  
-function renderMore(){
-  console.log()
-
-}
