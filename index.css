@@ -1,0 +1,28 @@
+img{
+    height: 9cm;
+    width:8cm;
+}
+.list{
+    width:8cm;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+    box-shadow: 10px 10px grey;
+    border-radius: 5%;
+}
+.list :hover{
+    box-shadow: 10px 10px lightgrey;
+    background-color: rgb(209, 224, 233);
+
+}
+#main{
+    display: flex;
+}
+li{
+    background-color: lightgrey;
+}
+li :hover{
+    background-color: grey;
+}
+#listMovies{
+    display:inline-table;
+}
