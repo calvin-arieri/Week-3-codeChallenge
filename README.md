@@ -6,10 +6,9 @@ TO install this program.
     1.Go to my github page https://github.com/
     2.Navigate to the Repo "week-3-codecahllenge"
     3.Clone the repo into your machine.
-Or you may use the web version by clicking on: https://calvin-arieri.github.io/Week-3-codeChallenge/
  
 ## How to use it.
-Once the program is in your machine navigate to your folder click on index.html and your program will start. If using the webversion just click on the link and buy your ticket by clicking on buy ticket button
+After cloning it to you device navigate to the folder using terminal then start json sever by typing json-server --watch db.json. After navigate to the folder and click on index.html.  To buy a ticket click on buy ticket button.
 
 ## contributing 
 Anyone interested about the project you  can fork it and do the changes that they require.Please don't change the original.
